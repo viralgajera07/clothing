@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cross-Cart</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/bag-x.svg">
+    <style>
+        *{
+            font-family: 'Poppins', sans-serif;
+        }
+        .logo{
+            font-size:30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ==========Nev-bar==========-->
+
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><i class="bi bi-bag-x logo text-white"></i></a>
+                  <a href="" class="text-decoration-none text-white fs-4">Cross Cart</a>
+                  <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse ps-5" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Cart</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          More
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Men</a></li>
+                          <li><a class="dropdown-item" href="#">Women</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">All</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light">Offers</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2 placeholder-glow" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+       
+    <!-- ==========poster==========-->
+
+    <div class="container mt-3 mb-3">
+            <img src="img/bg-1.jpg" alt="" class="img-fluid">
+    </div>
+
+        <!-- ==========Todays's-deals==========-->
+        <div class="container-fluid bg-light">
+            <h2 class="text-center pt-3">Today's Deals</h2>
+            <div class="container">
+                <div class="row pt-3 justify-content-center">
+                    <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                        <a href=""><img src="img/p1.jpg" alt="" class="img-fluid w-100"></a>
+                        <hr class="mt-2 mb-2">
+                        <div class="fw-bold">URBAN RANGER</div>
+                        <div class="pb-2">Black Shirt</div>
+                        <h4 class="d-inline-block">₹900</h4>
+                        <del>₹1500</del>
+                        <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                    </div>
+                    <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                        <a href=""><img src="img/p8.jpg" alt="" class="img-fluid w-100"></a>
+                        <hr class="mt-2 mb-2">
+                        <div class="fw-bold">HONEY</div>
+                        <div class="pb-2">Navy Blue Patterned Top</div>
+                        <h4 class="d-inline-block">₹1200</h4>
+                        <del>₹1700</del>
+                        <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                    </div>
+                    <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                        <a href=""><img src="img/p3.jpg" alt="" class="img-fluid w-100"></a>
+                        <hr class="mt-2 mb-2">
+                        <div class="fw-bold">URBAN RANGER</div>
+                        <div class="pb-2">Beige Shirt</div>
+                        <h4 class="d-inline-block">₹2110</h4>
+                        <del>₹3200</del>
+                        <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                    </div>
+                    <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 m-lg-3 col-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                        <a href=""><img src="img/p2.jpg" alt="" class="img-fluid w-100"></a>
+                        <hr class="mt-2 mb-2">
+                        <div class="fw-bold">URBAN RANGER</div>
+                        <div class="pb-2">Green Shirt</div>
+                        <h4 class="d-inline-block">₹1300</h4>
+                        <del>₹1500</del>
+                        <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                    </div>
+                    <div class="col col-12 mt-sm-1 mb-sm-1 col-md-6 col-lg-3 m-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                        <a href=""><img src="img/p5.jpg" alt="" class="img-fluid w-100"></a>
+                        <hr class="mt-2 mb-2">
+                        <div class="fw-bold">PEOPLE</div>
+                        <div class="pb-2">Navy Blue Shirt</div>
+                        <h4 class="d-inline-block">₹1000</h4>
+                        <del>₹1500</del>
+                        <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                    </div> 
+                </div>
+                
+                
+                
+                
+                <div class="row pt-3 justify-content-center">
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p4.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">URBAN RANGER</div>
+                      <div class="pb-2">Black Shirt</div>
+                      <h4 class="d-inline-block">₹900</h4>
+                      <del>₹1500</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p10.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">PEOPLE</div>
+                      <div class="pb-2">Multicoloured Striped Top</div>
+                      <h4 class="d-inline-block">₹1200</h4>
+                      <del>₹1700</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p9.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">PEOPLE</div>
+                      <div class="pb-2">Navy Blue Printed Top</div>
+                      <h4 class="d-inline-block">₹2110</h4>
+                      <del>₹3200</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 m-lg-3 col-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p7.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">BYFORD</div>
+                      <div class="pb-2">Oliv Solid Shorts</div>
+                      <h4 class="d-inline-block">₹1300</h4>
+                      <del>₹1500</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-6 col-lg-3 m-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p6.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">URBAN RANGER</div>
+                      <div class="pb-2">Navy Blue Printed Shorts</div>
+                      <h4 class="d-inline-block">₹1000</h4>
+                      <del>₹1500</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div> 
+              </div>
+
+              </div>
+            </div>
+        </div>
+
+
+                <!-- ==========Category==========-->
+                      <div class="container-fluid bg-light mt-5">
+                        <h2 class="text-center pt-3">Category</h2>
+                        <div class="container">
+                          <div class="row justify-content-center">
+                            <div class="col-lg-3 col-md-3 col-sm-12 m-4 border border-1 rounded-3 p-0">
+                              <a href=""><img src="img/c1.jpeg" alt="" class="img-fluid p-2 w-100"></a>
+                              <hr class="mt-2 mb-2">
+                          <div class="fw-bold text-center">KIDS</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 m-4 border border-1 rounded-3 p-0">
+                              <a href=""><img src="img/c2.jpeg" alt="" class="img-fluid p-2 w-100"></a>
+                              <hr class="mt-2 mb-2">
+                          <div class="fw-bold text-center">MEN</div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-12 m-4 border border-1 rounded-3 p-0">
+                              <a href=""><img src="img/c3.jpeg" alt="" class="img-fluid p-2 w-100"></a>
+                              <hr class="mt-2 mb-2">
+                          <div class="fw-bold text-center">WHOMEN</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>  
+
+
+
+
+        <!-- ==========Suggested Products==========-->
+        <div class="container-fluid bg-light mt-5">
+          <h2 class="text-center pt-3">Suggested Products</h2>
+          <div class="container">
+              <div class="row pt-3 justify-content-center">
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p13.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">STYLEUP</div>
+                      <div class="pb-2">Pink Chappal</div>
+                      <h4 class="d-inline-block">₹1800</h4>
+                      <del>₹2000</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p15.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">AJILE</div>
+                      <div class="pb-2">Teal Backpack</div>
+                      <h4 class="d-inline-block">₹2300</h4>
+                      <del>₹2500</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p18.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">BYFORD</div>
+                      <div class="pb-2">Brown Solid Formal Shoes</div>
+                      <h4 class="d-inline-block">₹2110</h4>
+                      <del>₹3200</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 m-lg-3 col-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p16.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">FOREVER GLAM</div>
+                      <div class="pb-2">Taupe Mini Bag</div>
+                      <h4 class="d-inline-block">₹1800</h4>
+                      <del>₹2100</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div>
+                  <div class="col col-12 mt-sm-1 mb-sm-1 col-md-6 col-lg-3 m-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                      <a href=""><img src="img/p14.jpg" alt="" class="img-fluid w-100"></a>
+                      <hr class="mt-2 mb-2">
+                      <div class="fw-bold">STYLEUP</div>
+                      <div class="pb-2">Mint Green Sandals</div>
+                      <h4 class="d-inline-block">₹1200</h4>
+                      <del>₹1500</del>
+                      <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                  </div> 
+              </div>
+              
+              
+              
+              
+              <div class="row pt-3 justify-content-center">
+                <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                    <a href=""><img src="img/p11.jpg" alt="" class="img-fluid w-100"></a>
+                    <hr class="mt-2 mb-2">
+                    <div class="fw-bold">STYLEUP</div>
+                    <div class="pb-2">Camel Sandals</div>
+                    <h4 class="d-inline-block">₹1700</h4>
+                    <del>₹1900</del>
+                    <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                </div>
+                <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                    <a href=""><img src="img/p17.jpg" alt="" class="img-fluid w-100"></a>
+                    <hr class="mt-2 mb-2">
+                    <div class="fw-bold">FOREVER GLAM</div>
+                    <div class="pb-2">Black Floral Printed Backpack</div>
+                    <h4 class="d-inline-block">₹1200</h4>
+                    <del>₹1700</del>
+                    <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                </div>
+                <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 col-lg-3 col-xxl  mt-1 border border-1 rounded-3 p-2">
+                    <a href=""><img src="img/p12.jpg" alt="" class="img-fluid w-100"></a>
+                    <hr class="mt-2 mb-2">
+                    <div class="fw-bold">FOREVER GLAM</div>
+                    <div class="pb-2">NLight Pink Pool Slides</div>
+                    <h4 class="d-inline-block">₹2200</h4>
+                    <del>₹3200</del>
+                    <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                </div>
+                <div class="col col-12 mt-sm-1 mb-sm-1 col-md-5 m-md-3 m-lg-3 col-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                    <a href=""><img src="img/p19.jpg" alt="" class="img-fluid w-100"></a>
+                    <hr class="mt-2 mb-2">
+                    <div class="fw-bold">BYFORD</div>
+                    <div class="pb-2">Brown Shoes</div>
+                    <h4 class="d-inline-block">₹2000</h4>
+                    <del>₹2500</del>
+                    <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+                </div>
+                <div class="col col-12 mt-sm-1 mb-sm-1 col-md-6 col-lg-3 m-lg-3 col-xxl mt-1 border border-1 rounded-3 p-2">
+                  <a href=""><img src="img/p20.jpg" alt="" class="img-fluid w-100"></a>
+                  <hr class="mt-2 mb-2">
+                  <div class="fw-bold">STYLEUP</div>
+                  <div class="pb-2">Mint Blue Bage</div>
+                  <h4 class="d-inline-block">₹1200</h4>
+                  <del>₹1500</del>
+                  <div><button type="button" class="btn btn-outline-dark">Add to Cart</button></div>
+              </div> 
+          </div>
+
+            </div>
+          </div>
+      </div>
+
+<!-- footer -->
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <img src="img/bag-x.svg" alt="" class="img-fluid w-50 pb-3">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3 text-secondary"></i>Cross Cart
+                  </h6>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Products
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">MENS</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">WOMENS</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">KIDS</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">MORE</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <p><i class="fas fa-home me-3 text-secondary"></i> SURAT, NY 10012, INDIA</p>
+                  <p>
+                    <i class="fas fa-envelope me-3 text-secondary"></i>
+                    CCart@Gmail.com
+                  </p>
+                  <p><i class="fas fa-phone me-3 text-secondary"></i> + 91 265 5800 598</p>
+                  <p><i class="fas fa-print me-3 text-secondary"></i> + 91 289 2536 157</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2022 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Cross Cart</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+          </div>
+        </div>
+      </div>
+<!-- Footer -->
+
+<script src="js/bootstrap.bundle.js"></script>    
+</body>
+</html>
